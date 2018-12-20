@@ -15,7 +15,7 @@ client.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "s")) {
+    } else if(message.content.startsWith(prefix + "st")) {
                 if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         client.user.setGame(args , 'https://twitch.tv/meercy');
